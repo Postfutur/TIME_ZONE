@@ -1,2 +1,2 @@
 # TIME_ZONE
-Give hours for worldwide time_Zone
+Give Name and time for worldwide Zone/City hour and The Time Offset
