@@ -1,0 +1,11 @@
+date.default_latitude float
+La latitude par défaut.
+
+date.default_longitude float
+La longitude par défaut.
+
+date.sunrise_zenith float
+L'heure de lever du soleil par défaut.
+
+date.sunset_zenith float
+L'heure du coucher du soleil par défaut.
