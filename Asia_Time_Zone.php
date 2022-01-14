@@ -11,7 +11,7 @@
 
 <body>
 <?php
-        session_name('SESSION_ASIA');
+        //session_name('SESSION_ASIA');
 		//session_start();
 		/* variable in constante not in variable */
 		//echo File_To_Open_Csv; // for TEST uncoment

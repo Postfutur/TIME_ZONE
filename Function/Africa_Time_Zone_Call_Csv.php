@@ -8,9 +8,7 @@
 <body>
 <!-- FUNCTION FULL LISTING -->
 <?php
-	function Africa_Full_Listing_Time_Zone()
-							{
-// VAR as CONSTANT
+	function Africa_Full_Listing_Time_Zone(){ // VAR as CONSTANT
 								$File_To_Open = AFRICA_FILE_TO_OPEN_CSV;
 								$Zise = AFRICA_SIZE_FILE_CSV;
 								$Delimiter = AFRICA_DELIMITER_CSV;
@@ -30,7 +28,6 @@
 														$date->setTimezone(new DateTimeZone($Element));
 														echo $date->format('F j Y '). "</br> " /*. $date->format('H:i:s P') . "</br>"*/. $date->format('h:i:s a P') . "</br>";
 														echo "</li></ul>";
-
 													}
 											}
 										fclose($file_opened);

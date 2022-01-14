@@ -1,5 +1,13 @@
 /* Time_Zone.css */
 
+*{
+  font-size: small;
+}
+
+*:hover{
+  font-size: large;
+}
+
 /* BEGIN UL LI */
 
 #menu-accordeon {
@@ -18,7 +26,7 @@
   text-align: center;
 }
 #menu-accordeon li {
-   background-color:#729EBF; 
+   background-color:#729EBF;
    background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
    border-radius: 6px;
@@ -69,7 +77,7 @@
         background: #729EBF
     }
     #menu-accordeon li:hover {
-        background-color:#729EBF; 
+        background-color:#729EBF;
         background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
         background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
     }
